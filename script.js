@@ -15,7 +15,7 @@ for (var cbox = 0; cbox< n; cbox++)
     boxes[cbox].style.backgroundColor = bgcolor;
 
  if(boxes[cbox].className == "box"){boxes[cbox].className = "clicked";}
- else{boxes[cbox].className = "box";}
+ else{boxes[cbox].className = "box";boxes[cbox].style.backgroundColor= "red";}
 
  }
     })(cbox)  
